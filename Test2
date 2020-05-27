@@ -1,0 +1,98 @@
+{
+    "sources": [
+        { "name": "mobileVideo1",
+            "autoplay": true,
+            "playType": "st",
+            "playerName": "DSS",
+            "playerType": "iOS",
+            "playerVersion": "1.0",
+            "videoId": "29229096",
+            "videoLength": 5700,
+            "videoName": "Doris Burke advocates for NBA to resume with only playoff teams",
+            "videoSourceId": "222-333-888",
+            "videoType": "Replay"
+        },
+        { "name": "mobileVideo2",
+            "autoplay": false,
+            "playType": "st",
+            "playerName": "Testplayer",
+            "playerType": "iOS",
+            "playerVersion": "1.0",
+            "videoId": "88024597-8e17-4fea-bfb3-6b83a754927e",
+            "videoLength": 5732,
+            "videoName": "LANCE Pt. 1",
+            "videoSourceId": "222-333-888",
+            "videoType": "Live"
+        },
+          { "name": "mobileVideo3",
+            "autoplay": false,
+            "playType": "st",
+            "playerName": "Testplayer",
+            "playerType": "iOS",
+            "playerVersion": "1.0",
+            "videoId": "29225440",
+            "videoLength": 72,
+            "videoName": "Why Wilbon isn't keen on the NHL's plan",
+            "videoSourceId": "222-333-888",
+            "videoType": "VOD"
+        },
+          { "name": "mobileVideo4",
+            "autoplay": false,
+            "playType": "st",
+            "playerName": "DSS",
+            "playerType": "iOS",
+            "playerVersion": "1.0",
+            "videoId": "29229783",
+            "videoLength": 3540,
+            "videoName": "Does Kevin Durant have anything left to prove?",
+            "videoSourceId": "222-333-888",
+            "videoType": "aType"
+        }
+    ],
+    "tests": [
+        { "name": "test1_Mobile_Joha",
+            "source": "mobileVideo1",
+            "script" : "(play) (30, pause) (10, play) (180, pause) (50, play) (20, seek, 2500) (240, pause) (650, play) (20, seek, 10)(35, pause) (15, play)"
+        },
+        { "name": "test2_Mobile_Joha",
+            "source": "mobileVideo1",
+            "script" : "(play) (60, seek, 5)(20, seek, 400)"
+        },
+         { "name": "test3_Mobile_Joha",
+            "source": "mobileVideo2",
+            "script" : "(play)(500, pause) (150, play)"
+        },
+         { "name": "test4_Mobile_Joha",
+            "source": "mobileVideo3",
+            "script" : "(play) (25, pause) (5, play)(5, seek, 10)"
+        },
+        { "name": "test5_Mobile_Joha",
+            "source": "mobileVideo2",
+            "script" : "(play) (90, pause) (70, play) (1800, seek, 10)(400, seek, 2000)(240, pause) (650, play)(800, seek, 700)(500, seek, 2800)(1000, seek, 5000)(90, pause) (70, play)"
+        },
+          { "name": "test6_Mobile_Joha",
+            "source": "mobileVideo1",
+            "script" : "(play)"
+        },
+          { "name": "test7_Mobile_Joha",
+            "source": "mobileVideo4",
+            "script" : "(play)"
+        },
+          { "name": "test8_Mobile_Joha",
+            "source": "mobileVideo3",
+            "script" : "(play)"
+        },
+           { "name": "test9_Mobile_Joha",
+            "source": "mobileVideo2",
+            "script" : "(play)"
+        },
+          { "name": "test10_Mobile_Joha",
+            "source": "mobileVideo1",
+            "script" : "(play)(90, pause) (700, play)"
+        },
+          { "name": "test11_Mobile_Joha",
+            "source": "mobileVideo4",
+            "script" : "(play)(1800, seek, 10)(400, seek, 2000)(90, pause) (70, play) "
+        }
+      ]
+}
