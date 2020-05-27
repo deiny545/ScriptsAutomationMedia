@@ -36,7 +36,6 @@
             "videoSourceId": "222-333-888",
             "videoType": "VOD"
         },
-        ,
           { "name": "mobileVideo4",
             "autoplay": false,
             "playType": "st",
